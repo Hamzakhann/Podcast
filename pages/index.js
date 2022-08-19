@@ -1,6 +1,13 @@
 import React from "react";
 import { Typography } from "@mui/material";
 import styles from "../styles/home.module.scss";
+import {
+  RadiButton,
+  MusicButton,
+  PrimaryButton,
+  SecondaryButton,
+  LightRadiButton,
+} from "../components/Button/Button";
 
 const Home = () => {
   return (
@@ -12,6 +19,11 @@ const Home = () => {
       <Typography variant="h5">HELLO</Typography>
       <Typography variant="h6">HELLO</Typography>
       <Typography variant="body1">Search</Typography>
+      <PrimaryButton>Hello</PrimaryButton>
+      <SecondaryButton>Hello</SecondaryButton>
+      <MusicButton>Hello</MusicButton>
+      <RadiButton>Hello</RadiButton>
+      <LightRadiButton>Hello</LightRadiButton>
     </div>
   );
 };
