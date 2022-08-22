@@ -1,0 +1,24 @@
+.podcast_container {
+  width: auto;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+  max-width: 95%;
+  flex-wrap: wrap;
+  margin: auto;
+  .available_podcast {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    h3 {
+      white-space: nowrap;
+    }
+  }
+  .podcast {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}

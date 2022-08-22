@@ -1,0 +1,130 @@
+.receive_container {
+  width: 100%;
+  height: 100%;
+  max-width: 90%;
+  margin: auto auto 5rem auto;
+  position: relative;
+  padding: 2rem 0;
+
+  .receive_img_container {
+    width: 100%;
+    opacity: 0.1;
+    position: absolute;
+    bottom: 0;
+  }
+
+  .receive_pod_mic_container {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 5rem;
+    padding-top: 3rem;
+    position: absolute;
+  }
+
+  .receivee_pod_mic_left_container {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-top: 10rem;
+    padding-right: 6rem;
+    position: absolute;
+  }
+
+  .receive_content_container {
+    width: 100%;
+    height: 100%;
+    padding: 4em 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    h2 {
+      color: #ffffff !important;
+    }
+    .search_container {
+      width: 100%;
+      max-width: 33%;
+      margin: 2rem 0;
+      .search {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .btn_container {
+          button {
+            background: #1ad993;
+            color: black;
+            font-weight: 600;
+            border-radius: 0 !important;
+            padding: 11.8px 26px !important;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .receive_container {
+    .receive_content_container {
+      .search_container {
+        max-width: 40%;
+        .search {
+          flex-direction: column;
+          .btn_container {
+            margin-top: 1rem;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 1025px) {
+  .receive_container {
+    width: auto;
+    max-width: 100%;
+    padding: 2rem 0;
+    margin: auto 1rem 5rem 1rem;
+    .receive_pod_mic_container {
+      padding: 0;
+      top: 1rem;
+      justify-content: flex-end;
+      img {
+        max-width: 70px !important;
+      }
+    }
+    .receivee_pod_mic_left_container {
+      justify-content: flex-start;
+      padding: 0;
+      bottom: 3rem;
+      left: 1.5rem;
+    }
+    .receive_content_container {
+      align-items: flex-start;
+      .search_container {
+        max-width: 100%;
+        .search {
+          align-items: flex-start;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .receive_container {
+    padding: 0;
+    .receive_pod_mic_container {
+      display: none;
+    }
+    .receivee_pod_mic_left_container {
+      display: none;
+    }
+    .receive_content_container {
+      padding: 2rem 1rem;
+    }
+  }
+}

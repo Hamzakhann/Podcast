@@ -1,5 +1,6 @@
 import { styled } from "@mui/material/styles";
 import MuiButton from "@mui/material/Button";
+import Image from "next/image";
 
 export const PrimaryButton = styled(MuiButton)((props) => ({
   fontWeight: 600,
@@ -36,7 +37,7 @@ export const SecondaryButton = styled(MuiButton)((props) => ({
   },
 }));
 
-export const MusicButton = styled(MuiButton)((props) => ({
+export const MusicButtonCustom = styled(MuiButton)((props) => ({
   background: "none",
   fontWeight: 600,
   fontFamily: "Inter",
@@ -48,10 +49,31 @@ export const MusicButton = styled(MuiButton)((props) => ({
   border: "none",
   textAlign: "center",
   textTransform: "initial",
+  display: "flex",
+  justifyContent: "center",
+  alignItems: "center",
+  gap: "0.5rem",
   "&:hover": {
     color: "#3E2DB2",
   },
 }));
+
+export const MusicButton = ({ children, isMusic = true }) => {
+  return (
+    <MusicButtonCustom>
+      {isMusic ? (
+        <Image
+          src="/images/listen.png"
+          width={32}
+          height={32}
+          objectFit="contain"
+          alt="listen icon"
+        />
+      ) : null}
+      {children}
+    </MusicButtonCustom>
+  );
+};
 
 export const RadiButton = styled(MuiButton)((props) => ({
   fontWeight: 600,

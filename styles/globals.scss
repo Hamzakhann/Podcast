@@ -111,3 +111,59 @@ p {
 .darkWhiteColor {
   background: #f4f2ff;
 }
+
+input {
+  font-family: "Inter" !important;
+}
+
+label {
+  font-family: "Inter" !important;
+}
+
+span {
+  font-family: "Inter" !important;
+}
+
+a {
+  font-family: "Inter" !important;
+}
+
+.header_header_container {
+  .MuiTextField-root {
+    label {
+      color: #afb0b9;
+      opacity: 0.87;
+    }
+    .MuiOutlinedInput-root {
+      border-radius: 0 !important;
+      background: #f4f2ff;
+      input {
+        width: 100%;
+        border: none !important;
+      }
+      fieldset {
+        border: none !important;
+      }
+    }
+  }
+}
+
+.receive_container {
+  .MuiTextField-root {
+    label {
+      color: #afb0b9;
+      opacity: 0.87;
+    }
+    .MuiFilledInput-root {
+      border-radius: 0 !important;
+      background: #f4f2ff;
+      input {
+        width: 100%;
+        border: none !important;
+      }
+      fieldset {
+        border: none !important;
+      }
+    }
+  }
+}

@@ -1,0 +1,21 @@
+.listener_container {
+  width: 100%;
+  height: 100%;
+  border-bottom: 10px solid #503ae7;
+  .listener_content_container {
+    padding-bottom: 3rem;
+  }
+  .listener_head {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+    .listener_details {
+      p {
+        margin-bottom: 0.2rem;
+      }
+    }
+  }
+}
