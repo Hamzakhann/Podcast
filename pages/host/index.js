@@ -18,7 +18,11 @@ const Host = () => {
         <BigDream />
         <Approaches />
         <MultiSocial />
-        <OwnStoryHero />
+        <OwnStoryHero
+          sx={{
+            backgroundImage: "url(/images/own_hero_1.png)",
+          }}
+        />
         <RecentEpisodes />
       </BasicLayout>
     </div>

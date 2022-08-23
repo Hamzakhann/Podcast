@@ -4,9 +4,10 @@ import React from "react";
 import { SecondaryButton } from "../Button/Button";
 import styles from "./OwnStoryHero.module.scss";
 
-const OwnStoryHero = () => {
+const OwnStoryHero = ({ sx }) => {
+  console.log(sx);
   return (
-    <div className={styles.own_story_hero_container}>
+    <div className={styles.own_story_hero_container} style={sx}>
       <div className={styles.overlay}></div>
       <div className={styles.own_story_hero_content_container}>
         <Typography variant="h1">Become The Hero Of Your Own Story</Typography>

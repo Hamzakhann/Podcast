@@ -96,6 +96,10 @@ p {
   background: #503ae7;
 }
 
+.darkBlueColorWithOpacity {
+  background: rgba(#503ae7, 0.8);
+}
+
 .darkPurpleColor {
   background: #832bc1;
 }
@@ -126,6 +130,10 @@ span {
 
 a {
   font-family: "Inter" !important;
+}
+
+.pt-5 {
+  padding-top: 5rem;
 }
 
 .header_header_container {

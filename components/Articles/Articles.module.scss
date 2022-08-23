@@ -32,16 +32,16 @@
       transform: translateY(6rem);
       position: absolute;
       .strips1 {
-        width: 74px;
-        height: 232px;
+        width: 4.625rem;
+        height: 14.5rem;
       }
       .strips2 {
-        width: 74px;
-        height: 614px;
+        width: 4.625rem;
+        height: 38.375rem;
       }
       .strips3 {
-        width: 74px;
-        height: 420px;
+        width: 4.625rem;
+        height: 26.25rem;
       }
     }
   }
@@ -51,5 +51,16 @@
   .articles_container {
     max-width: 100%;
     padding: 5rem 1rem;
+    .read_article_container {
+      min-height: auto;
+    }
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .articles_container {
+    .read_article_container {
+      min-height: 516px;
+    }
   }
 }

@@ -11,6 +11,40 @@
     align-items: flex-end;
     gap: 1rem;
     padding-bottom: 5rem;
+    .tabs_container {
+      width: 100%;
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      gap: 2rem;
+      .tab {
+        border-radius: 28.5px;
+        padding: 1rem 1.5rem;
+        border: 1px solid #afb0b9;
+        cursor: pointer;
+        a {
+          color: #afb0b9;
+        }
+        p {
+          white-space: nowrap;
+          color: #afb0b9 !important;
+        }
+      }
+      .tab_active {
+        border: none;
+        background: #503ae7;
+        padding: 1rem 1.5rem;
+        border-radius: 28.5px;
+        cursor: pointer;
+        a {
+          color: white;
+        }
+        p {
+          white-space: nowrap;
+          color: white !important;
+        }
+      }
+    }
     .btn_container {
       button {
         border-radius: 0 !important;

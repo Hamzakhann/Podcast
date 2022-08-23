@@ -24,7 +24,7 @@ const Articles = () => {
   return (
     <div className={styles.articles_container}>
       <Grid container spacing={2}>
-        <Grid item xs={12} md={6} lg={4}>
+        <Grid item xs={12} sm={6} md={6} lg={4}>
           <div className={`${styles.read_article_container} darkWhiteColor`}>
             <Typography variant="h2">React our articles {"&"} news</Typography>
             <Link href="#">See More</Link>
@@ -37,7 +37,7 @@ const Articles = () => {
         </Grid>
         {data?.map((item, i) => (
           <Fragment key={i}>
-            <Grid item xs={12} md={6} lg={4}>
+            <Grid item xs={12} sm={6} md={6} lg={4}>
               <ArticlesCard
                 title={item?.title}
                 description={item?.decription}
