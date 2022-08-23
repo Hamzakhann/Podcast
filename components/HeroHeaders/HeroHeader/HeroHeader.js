@@ -2,7 +2,7 @@ import { Grid, Typography } from "@mui/material";
 import React from "react";
 import styles from "./HeroHeader.module.scss";
 import TextField from "@mui/material/TextField";
-import { PrimaryButton } from "../Button/Button";
+import { PrimaryButton } from "../../Button/Button";
 import Image from "next/image";
 
 const HeroHeader = () => {

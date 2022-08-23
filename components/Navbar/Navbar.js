@@ -1,9 +1,12 @@
 import { Typography } from "@mui/material";
 import Image from "next/image";
+import { useRouter } from "next/router";
 import React from "react";
 import styles from "./Navbar.module.scss";
 
 const Navbar = () => {
+  let router = useRouter();
+
   return (
     <div className={styles.navbar_container}>
       <div className={styles.navbar_logo}>
@@ -13,15 +16,26 @@ const Navbar = () => {
           height={40}
           objectFit="contain"
           alt="navbar logo"
+          onClick={() => router.push("/")}
         />
       </div>
       <div className={styles.navbar_links}>
         <div className={styles.links}>
-          <Typography variant="body1">Podcasts</Typography>
-          <Typography variant="body1">Host</Typography>
-          <Typography variant="body1">About</Typography>
-          <Typography variant="body1">Blog</Typography>
-          <Typography variant="body1">Contact</Typography>
+          <div>
+            <Typography variant="body1">Podcasts</Typography>
+          </div>
+          <div onClick={() => router.push("/host")}>
+            <Typography variant="body1">Host</Typography>
+          </div>
+          <div>
+            <Typography variant="body1">About</Typography>
+          </div>
+          <div>
+            <Typography variant="body1">Blog</Typography>
+          </div>
+          <div>
+            <Typography variant="body1">Contact</Typography>
+          </div>
         </div>
         <div className={styles.social}>
           <Image

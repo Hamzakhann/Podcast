@@ -167,3 +167,31 @@ a {
     }
   }
 }
+
+.designBarPurple {
+  width: 24px;
+  height: 8px;
+  background: #832bc1;
+  transform: rotate(-180deg);
+}
+
+.designBarGreen {
+  width: 20px;
+  height: 8px;
+  background: #1ad993;
+  transform: rotate(-180deg);
+}
+
+.designBarGreenLarge {
+  width: 58px;
+  height: 8px;
+  background: #1ad993;
+  transform: rotate(-180deg);
+}
+
+.designBarPurpleLarge {
+  width: 58px;
+  height: 8px;
+  background: #832bc1;
+  transform: rotate(-180deg);
+}

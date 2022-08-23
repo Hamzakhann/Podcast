@@ -2,7 +2,7 @@ import React, { Fragment } from "react";
 import { Typography } from "@mui/material";
 import styles from "../styles/home.module.scss";
 import BasicLayout from "../layout/BasicLayout/BasicLayout";
-import HeroHeader from "../components/HeroHeader/HeroHeader";
+import HeroHeader from "../components/HeroHeaders/HeroHeader/HeroHeader";
 import PodCast from "../components/PodCast/PodCast";
 import PodCastMaker from "../components/PodCastMaker/PodCastMaker";
 import RecentEpisodes from "../components/RecentEpisodes/RecentEpisodes";
