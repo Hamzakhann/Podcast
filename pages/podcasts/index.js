@@ -8,6 +8,7 @@ import styles from "../../styles/podcast.module.scss";
 const Podcasts = () => {
   return (
     <div className={styles.podcast_container}>
+      {/* check commit  */}
       <BasicLayout>
         <PodCastHeader />
         <RecentEpisodes title={"Recent Episodes"} />
