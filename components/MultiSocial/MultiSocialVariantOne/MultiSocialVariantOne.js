@@ -1,7 +1,7 @@
 import { Grid, Typography } from "@mui/material";
 import Image from "next/image";
 import React from "react";
-import styles from "./MultiSocial.module.scss";
+import styles from "./MultiSocialVariantOne.module.scss";
 
 const MultiSocial = () => {
   return (

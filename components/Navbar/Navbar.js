@@ -27,7 +27,7 @@ const Navbar = () => {
           <div onClick={() => router.push("/host")}>
             <Typography variant="body1">Host</Typography>
           </div>
-          <div>
+          <div onClick={() => router.push("/about")}>
             <Typography variant="body1">About</Typography>
           </div>
           <div>

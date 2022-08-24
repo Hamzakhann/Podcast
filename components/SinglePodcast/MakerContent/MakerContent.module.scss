@@ -1,0 +1,87 @@
+.maker_content_container {
+    width: 100%;
+    height: 100%;
+    max-width: 70%;
+    margin: auto;
+    padding: 0 0 5rem 0;
+
+    .content_container {
+        .content {
+            padding-bottom: 3rem;
+
+            h2 {
+                max-width: 80%;
+            }
+
+            p {
+                margin-top: 1rem;
+                max-width: 75%;
+            }
+        }
+        .auther_content_container{
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 4rem;
+            border-left: 20px solid #503AE7;
+            padding: 1rem 1rem 1rem 2rem;
+            // flex-wrap: wrap;
+            .auther_detail{
+                width: 100%;
+                height: 100%;
+                h3{
+                    white-space: nowrap;
+                    margin-top: 1rem;
+                    margin-bottom: 0.3rem;
+                }
+                p{
+                    margin-bottom: 1rem;
+                    white-space: nowrap;
+                }
+                .image_container{
+                    width: 100%;
+                    height: 100%;
+                    display: flex;
+                    align-items: center;
+                    gap: 1rem;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width:1200px) {
+    .maker_content_container {
+        padding: 0 2rem 5rem 2rem;
+        max-width: 100%;
+        .content_container{
+            .content{
+                h2{
+                    max-width: 100%  ;
+                }
+                p{
+                    max-width: 100%;
+                }
+            }
+            .auther_content_container{
+                flex-wrap: wrap;
+                padding: 1rem 1rem 1rem 2rem;
+                gap: 2rem;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width:768px) {
+    .maker_content_container {
+        padding: 0 1rem 5rem 1rem;
+        .content_container{
+            .auther_content_container{
+                flex-wrap: wrap;
+                padding: 1rem 1rem 1rem 1rem;
+            }
+        }
+    }
+}

@@ -2,7 +2,7 @@ import React from "react";
 import Approaches from "../../components/Approaches/Approaches";
 import BigDream from "../../components/BigDream/BigDream";
 import HostHeroHeader from "../../components/HeroHeaders/HostHeroHeader/HostHeroHeader";
-import MultiSocial from "../../components/MultiSocial/MultiSocial";
+import MultiSocial from "../../components/MultiSocial/MultiSocialVariantOne/MultiSocialVariantOne";
 import OwnStoryHero from "../../components/OwnStoryHero/OwnStoryHero";
 import PodCast from "../../components/PodCast/PodCast";
 import RecentEpisodes from "../../components/RecentEpisodes/RecentEpisodes";
