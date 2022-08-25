@@ -1,0 +1,78 @@
+.recent_episodes_container {
+  width: 100%;
+  height: 100%;
+  max-width: 90%;
+  margin: auto;
+  .recent_episodes_heading {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    gap: 1rem;
+    padding-bottom: 5rem;
+    .tabs_container {
+      width: 100%;
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      gap: 2rem;
+      .tab {
+        border-radius: 28.5px;
+        padding: 1rem 1.5rem;
+        border: 1px solid #afb0b9;
+        cursor: pointer;
+        a {
+          color: #afb0b9;
+        }
+        p {
+          white-space: nowrap;
+          color: #afb0b9 !important;
+        }
+      }
+      .tab_active {
+        border: none;
+        background: #503ae7;
+        padding: 1rem 1.5rem;
+        border-radius: 28.5px;
+        cursor: pointer;
+        a {
+          color: white;
+        }
+        p {
+          white-space: nowrap;
+          color: white !important;
+        }
+      }
+    }
+    .btn_container {
+      button {
+        border-radius: 0 !important;
+      }
+    }
+    .content {
+      h2 {
+        margin-bottom: 1rem;
+      }
+      p {
+        max-width: 60%;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 1025px) {
+  .recent_episodes_container {
+    max-width: 100%;
+    padding: 0 1rem;
+    .recent_episodes_heading {
+      display: block;
+      .content {
+        p {
+          max-width: 100%;
+          margin-bottom: 2rem;
+        }
+      }
+    }
+  }
+}

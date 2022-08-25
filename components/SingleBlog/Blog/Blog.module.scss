@@ -1,0 +1,116 @@
+.blog_header_container {
+  width: 100%;
+  height: 100%;
+  max-width: 90%;
+  margin: auto;
+  padding: 5rem 0;
+  .blog_heading_container {
+    width: 100%;
+    height: 100%;
+    max-width: 70%;
+    margin: auto;
+    margin-bottom: 2rem;
+    span {
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 20px;
+      text-transform: uppercase;
+      color: #503ae7;
+      display: block;
+      margin-bottom: 1rem;
+    }
+  }
+  .blog_heading_img_container {
+    width: 100%;
+    height: 100%;
+  }
+  .maker_content_container {
+    width: 100%;
+    height: 100%;
+    max-width: 70%;
+    margin: auto;
+    padding: 3rem 0 0 0;
+
+    .content_container {
+      .content {
+        padding-bottom: 3rem;
+
+        p {
+          margin-top: 1rem;
+        }
+      }
+      .auther_content_container {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 4rem;
+        border-left: 20px solid #503ae7;
+        padding: 1rem 1rem 1rem 2rem;
+        .auther_detail {
+          width: 100%;
+          height: 100%;
+          h3 {
+            white-space: nowrap;
+            margin-top: 1rem;
+            margin-bottom: 0.3rem;
+          }
+          p {
+            margin-bottom: 1rem;
+            white-space: nowrap;
+          }
+          .image_container {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .blog_header_container {
+    max-width: 100%;
+    padding: 10rem 2rem 5rem 2rem;
+    .blog_heading_container {
+      max-width: 100%;
+    }
+    .maker_content_container {
+      max-width: 100%;
+      .content_container {
+        .content {
+          h2 {
+            max-width: 100%;
+          }
+          p {
+            max-width: 100%;
+          }
+        }
+        .auther_content_container {
+          flex-wrap: wrap;
+          padding: 1rem 1rem 1rem 2rem;
+          gap: 2rem;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .blog_header_container {
+    padding: 10rem 1rem 5rem 1rem;
+    .maker_content_container {
+      .content_container {
+        .auther_content_container {
+          flex-wrap: wrap;
+          padding: 1rem 1rem 1rem 1rem;
+        }
+      }
+    }
+  }
+}
