@@ -33,7 +33,7 @@ const Navbar = () => {
           <div onClick={() => router.push("/blog")}>
             <Typography variant="body1">Blog</Typography>
           </div>
-          <div>
+          <div onClick={() => router.push("/contact")}>
             <Typography variant="body1">Contact</Typography>
           </div>
         </div>

@@ -17,7 +17,7 @@ const Home = () => {
         <HeroHeader />
         <PodCast />
         <PodCastMaker />
-        <RecentEpisodes />
+        <RecentEpisodes title={"Recent Episodes"} />
         <OurListeners />
         <Receive />
         <Articles />

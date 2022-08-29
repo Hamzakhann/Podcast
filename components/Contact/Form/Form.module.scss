@@ -1,0 +1,47 @@
+.form_container {
+  width: 100%;
+  height: 100%;
+  h3 {
+    margin-bottom: 1.5rem;
+  }
+  h4 {
+    color: #503ae7 !important;
+  }
+  .form {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+    textarea {
+      width: 100% !important;
+      min-height: 15%;
+      padding: 1rem;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 150%;
+      color: #afb0b9;
+      background: #f4f2ff;
+      border: none;
+    }
+    fieldset {
+      border: none !important;
+    }
+    label {
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 150%;
+      color: #afb0b9;
+    }
+    input {
+      background: #f4f2ff;
+    }
+    .btn_container {
+      margin-top: 1.5rem;
+      button {
+        border-radius: 0;
+      }
+    }
+  }
+}

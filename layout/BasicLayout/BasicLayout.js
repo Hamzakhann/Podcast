@@ -5,7 +5,7 @@ import Navbar from "../../components/Navbar/Navbar";
 import NavSm from "../../components/NavSm/NavSm";
 import styles from "./BasicLayout.module.scss";
 
-const BasicLayout = ({ children }) => {
+const BasicLayout = ({ children, footer = true }) => {
   return (
     <Container maxWidth="xl" disableGutters={true}>
       <div className={styles.basic_layout_container}>
@@ -13,7 +13,7 @@ const BasicLayout = ({ children }) => {
         <NavSm />
         {children}
       </div>
-      <Footer />
+      {footer ? <Footer /> : null}
     </Container>
   );
 };

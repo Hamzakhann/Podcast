@@ -5,7 +5,6 @@ import { SecondaryButton } from "../Button/Button";
 import styles from "./OwnStoryHero.module.scss";
 
 const OwnStoryHero = ({ sx }) => {
-  console.log(sx);
   return (
     <div className={styles.own_story_hero_container} style={sx}>
       <div className={styles.overlay}></div>
