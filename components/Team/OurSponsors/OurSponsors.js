@@ -1,7 +1,7 @@
 import { Grid, Typography } from "@mui/material";
 import Image from "next/image";
 import React from "react";
-import { RadiButton } from "../../Button/Button";
+import { PrimaryButton, RadiButton } from "../../Button/Button";
 import styles from "./OurSponsors.module.scss";
 
 const OurSponsors = () => {
@@ -64,10 +64,10 @@ const OurSponsors = () => {
           </div>
         </Grid>
         <Grid item xs={12} md={6} lg={4}>
-          <div className={`${styles.become_card_container} darkBlueColor`}>
+          <div className={`${styles.become_card_container} darkWhiteColor`}>
             <Typography variant="h3">Become a Sponsor</Typography>
             <div className={styles.btn_container}>
-              <RadiButton>Contact Now</RadiButton>
+              <PrimaryButton>Contact Now</PrimaryButton>
             </div>
           </div>
         </Grid>

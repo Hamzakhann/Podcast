@@ -22,7 +22,7 @@ const Contact = () => {
                     <div>
                       <Image
                         src="/images/apple_podcast.png"
-                        width={182}
+                        width={162}
                         height={32}
                         objectFit="contain"
                         alt="apple podcast"
